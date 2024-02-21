@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(183, 61%, 74%);
+    font-size: 25px;
+}
+
+.profile{
+    background-color: hsl(193, 63%, 85%);
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.profile__avatar{
+    display: flex;
+    margin-left:100px ;
+
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+
+.profile__name{
+    font-size: 30px;
+    color: darkorange;
+    text-align: center;
+}
+
+section button > p{
+    
+    font-size: 30px;
+}
+
+
+button{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+button{
+    background-color: rgb(86, 231, 43); 
+}
+
+.btn_uno:hover {
+    background-color: brown;
+    color: white;
+}
+
+.btn_dos:hover {
+    background-color: brown;
+    color: white;
+}
+.btn_tres:hover {
+    background-color: brown;
+    color: white;
+}
+.btn_cuatro:hover {
+    background-color: brown;
+    color: white;
+}
+.btn_cinco:hover {
+    background-color: brown;
+    color: white;
+}
+
+
